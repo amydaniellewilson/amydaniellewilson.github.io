@@ -2,16 +2,24 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  justify-content: center;
+.hero {
+  border: 10px solid #FF5757;
 }
 
-p {
-  color: hotpink;
-  font-family: 'Saira Stencil One', cursive;
-  display: flex;
-  text-align: center;
-  padding: 150px;
+/* First Page */
+
+h1 {
+  color: #FF5757;
+  font-family: 'Fredoka One', cursive;
+}
+.page-one {
+  background-image: url(../assets/cactus.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.my-name {
   font-size: 100px;
+}
+.my-title {
+  font-size: 50px;
 }
