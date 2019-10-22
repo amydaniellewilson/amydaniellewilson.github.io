@@ -23,3 +23,44 @@ h1 {
 .my-title {
   font-size: 50px;
 }
+
+/* Second Page */
+.page-two{
+  display: flex;
+}
+.headshot-aboutme {
+  margin: 50px;
+}
+.headshot {
+  height: 350px;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(255, 87, 87, 0.2), 0 6px 20px 0 rgba(255, 87, 87, 0.19);
+}
+.about-me {
+  padding-left: 50px;
+}
+.about-me-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+
+/* Tech Icons */
+.icon-list {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  justify-content: center;
+}
+.icon {
+  font-size: 3rem;
+  padding-bottom: 10px;
+  display: flex;
+}
+small {
+  font-family: 'Montserrat', sans-serif;
+}
