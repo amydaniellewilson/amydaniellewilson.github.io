@@ -41,14 +41,15 @@ h1 {
   padding-left: 50px;
 }
 .about-me-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Fredoka One', cursive;
   font-size: 50px;
   text-align: center;
   margin-bottom: 30px;
+  color: #FF5757;
 }
 p {
-  font-family: 'Montserrat', sans-serif;
   text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Tech Icons */
@@ -74,4 +75,38 @@ small {
   display: flex;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* Third Page */
+.page-three {
+
+}
+.container {
+  justify-content: center;
+  flex-direction: column;
+}
+.projects-title {
+  font-size: 50px;
+  text-align: center;
+}
+.project-container {
+  width: 50%;
+  float: left;
+  height: 0;
+  padding-bottom: 30%;
+  text-align: center;
+}
+.project-name {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.project-pic {
+  box-shadow: 0 4px 8px 0 rgba(255, 87, 87, 0.2), 0 6px 20px 0 rgba(255, 87, 87, 0.19);
+  border-radius: 10px;
+  width: 70%;
 }
