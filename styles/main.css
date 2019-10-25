@@ -82,21 +82,21 @@ small {
 
 /* Third Page */
 .page-three {
-
+ margin: 25px;
 }
 .container {
   justify-content: center;
   flex-direction: column;
 }
 .projects-title {
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
 }
 .project-container {
   width: 50%;
   float: left;
   height: 0;
-  padding-bottom: 30%;
+  padding-bottom: 40%;
   text-align: center;
 }
 .project-name {
@@ -104,9 +104,32 @@ small {
   text-align: center;
   color: black;
   text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
 }
 .project-pic {
   box-shadow: 0 4px 8px 0 rgba(255, 87, 87, 0.2), 0 6px 20px 0 rgba(255, 87, 87, 0.19);
   border-radius: 10px;
   width: 70%;
+  margin-bottom: 10px;
+}
+.project-description {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.github-icon {
+  display: flex;
+  justify-content: center;
+}
+.project-tech {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 17px;
+  color: black;
 }
