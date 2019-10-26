@@ -4,7 +4,7 @@
 
 .hero {
   border: 10px solid #FF5757;
-  background-color: #F6F6F6;ggit
+  background-color: #F6F6F6;
 }
 
 /* First Page */
@@ -17,6 +17,12 @@ h1 {
   background-image: url(../assets/cactus.jpeg);
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-icons {
+  margin-bottom: 100px;
 }
 .my-name {
   font-size: 100px;
