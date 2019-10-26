@@ -4,6 +4,7 @@
 
 .hero {
   border: 10px solid #FF5757;
+  background-color: #F6F6F6;ggit
 }
 
 /* First Page */
@@ -96,7 +97,7 @@ small {
   width: 50%;
   float: left;
   height: 0;
-  padding-bottom: 40%;
+  padding-bottom: 32%;
   text-align: center;
 }
 .project-name {
@@ -130,6 +131,6 @@ small {
   text-align: center;
   margin-bottom: 10px;
   margin-left: 5px;
-  font-size: 17px;
+  font-size: 15px;
   color: black;
 }
