@@ -141,3 +141,52 @@ small {
   font-weight: bold;
   color: black;
 }
+
+
+
+/* Page 3 Responsiveness */
+/* Slightly smaller laptop screen */
+@media only screen and (max-width: 1250px) {
+  .project-container {
+    padding-bottom: 35%;
+  }
+}
+/* Smaller screen again */
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    padding-bottom: 42%;
+  }
+}
+/* Ipad move layout */
+@media only screen and (max-width: 850px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-container {
+    width: 99%;
+    padding-bottom: 57%;
+  }
+}
+/* Phone */
+@media only screen and (max-width: 740px) {
+  .project-container {
+    padding-bottom: 65%;
+  }
+}
+/* Smaller Phone Screen */
+@media only screen and (max-width: 580px) {
+  .project-container {
+    padding-bottom: 69%;
+  }
+}
+/* Smallest Phone Screen*/
+@media only screen and (max-width: 580px) {
+  .project-container {
+    padding-bottom: 77%;
+  }
+  .p1-container {
+    padding-bottom: 85%;
+  }
+}
