@@ -63,10 +63,8 @@ p {
 .icon-list {
   margin-top: 50px;
   margin-bottom: 75px !important;
-  /* margin-left: 20%; */
   display: flex;
   justify-content: center;
-  /* width: 70%; */
 }
 .icon {
   font-size: 3rem;
@@ -143,6 +141,20 @@ small {
 }
 
 
+
+/* Page 2 Responsiveness */
+/* Center about me text and space from picture underneath */
+@media only screen and (max-width: 768px) {
+  .about-me {
+    padding: 0 0 25px;
+  }
+}
+/* Space tech icons */
+@media only screen and (max-width: 650px) {
+  .icon-column {
+    width: 25% !important;
+  }
+}
 
 /* Page 3 Responsiveness */
 /* Slightly smaller laptop screen */
